@@ -21,3 +21,4 @@ git config --global core.editor '"C/Program Files (x86)/Vim/vim82/gvim.exe" -f -
 git config --global core.editor 'gvim -f -c "set fenc=utf-8"'
 
 
+
