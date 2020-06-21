@@ -1,4 +1,4 @@
-# sshƒG[ƒWƒFƒ“ƒg‚Ö‚Ì“o˜^
+# sshã‚¨ãƒ¼ã‚¸ã‚§ãƒ³ãƒˆã¸ã®ç™»éŒ²
 
 ```
 eval `ssh-agent`
@@ -6,7 +6,7 @@ ssh-add ~/.ssh/id_rsa_github
 
 ```
 
-# github ‚©‚çƒNƒ[ƒ“‚ğì¬
+# github ã‹ã‚‰ã‚¯ãƒ­ãƒ¼ãƒ³ã‚’ä½œæˆ
 
 ```
 
@@ -16,9 +16,14 @@ git clone git@github.com:luhasho/memo.git
 
 ```
 
-## git editor •ÏX
+## git editor gvimã«å¤‰æ›´
+
+```
+#ãƒ•ãƒ«ãƒ‘ã‚¹æŒ‡å®š
 git config --global core.editor '"C/Program Files (x86)/Vim/vim82/gvim.exe" -f -c "set fenc=utf-8"'
+
+#ãƒ‘ã‚¹ãŒé€šã£ã¦ã‚‹å ´åˆ
 git config --global core.editor 'gvim -f -c "set fenc=utf-8"'
 
-
+```
 
