@@ -277,6 +277,28 @@ Rev
 | shift+ins | 貼付   |
 
 
+
+## dein インストールメモ
+
+``` ps1
+
+Invoke-WebRequest https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.ps1 -OutFile installer.ps1
+
+# 現在のポリシーを確認
+get-ExecutionPolicy
+→RemoteSigned
+
+# Allow to run third-party script
+#サードパーティスクリプトの実行を許可
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# For example, we just use `~/.cache/dein` as installation directory
+#たとえば、インストールディレクトリとして `〜/ .cache / dein`を使用するだけです
+./installer.ps1 ~/.cache/dein
+
+```
+
+
 ## 【付箋のショートカット】
 | キー             | 内容           |
 |------------------|----------------|
