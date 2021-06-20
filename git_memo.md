@@ -13,6 +13,8 @@ ssh-add ~/.ssh/id_rsa_github
 git clone git@github.com:luhasho/test.git
 git clone git@github.com:luhasho/dotfiles.git
 git clone git@github.com:luhasho/memo.git
+git clone git@github.com:luhasho/Bat-to-Execute-PS
+
 
 ```
 
