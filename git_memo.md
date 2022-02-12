@@ -15,12 +15,30 @@ git clone git@github.com:luhasho/dotfiles.git
 git clone git@github.com:luhasho/memo.git
 git clone git@github.com:luhasho/Bat-to-Execute-PS
 
+```
+
+# git 基本
+
+```
+
+git --version
+
+git status
+git add *
+git status
+git commit
+git push
+
+git pull
 
 ```
 
 # git config 設定
 
 ```
+
+# git config 確認
+git config --list
 
 # user mail 設定
 git config --global user.name "<user>"
