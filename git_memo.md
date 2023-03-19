@@ -48,10 +48,11 @@ git config --global user.email <mail>
 
 # git editor gvimに変更 フルパス指定
 ```
-git config --global core.editor '"C/Program Files (x86)/Vim/vim82/gvim.exe" -f -c "set fenc=utf-8"'
-git config --global core.editor '"C:\Program Files\Vim\vim82/gvim.exe" -f -c "set fenc=utf-8"'
-```
+# どちらでも良いが、/ を推奨 \ だと \\ になります
+git config --global core.editor "'C:/Program Files/Vim/vim90/gvim.exe' -f -c 'set fenc=utf-8'"
+git config --global core.editor "'C:\Program Files\Vim\vim90\gvim.exe' -f -c 'set fenc=utf-8'"
 
+```
 
 # git editor gvimに変更 パスが通ってる場合
 ```
