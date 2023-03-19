@@ -35,22 +35,26 @@ git pull
 
 # git config 設定
 
+## git config 確認
+```
+git config --list
 ```
 
-# git config 確認
-git config --list
-
 # user mail 設定
+```
 git config --global user.name "<user>"
-# git config --global user.email <mail>
-
+git config --global user.email <mail>
+```
 
 # git editor gvimに変更 フルパス指定
+```
 git config --global core.editor '"C/Program Files (x86)/Vim/vim82/gvim.exe" -f -c "set fenc=utf-8"'
 git config --global core.editor '"C:\Program Files\Vim\vim82/gvim.exe" -f -c "set fenc=utf-8"'
+```
 
 
 # git editor gvimに変更 パスが通ってる場合
+```
 git config --global core.editor 'gvim -f -c "set fenc=utf-8"'
 
 ```
