@@ -17,6 +17,12 @@ git clone git@github.com:luhasho/Bat-to-Execute-PS
 
 ```
 
+# github からクローン作成 https
+```
+git clone https://github.com/luhasho/dotfiles.git
+
+```
+
 # git 基本
 
 ```
