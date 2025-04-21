@@ -6,7 +6,7 @@ ssh-add ~/.ssh/id_rsa_github
 
 ```
 
-# github からクローンを作成
+# github からクローンを作成 ssh
 
 ```bash
 
